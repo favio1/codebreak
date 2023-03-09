@@ -39,6 +39,7 @@
             <div class="layout-px-spacing">
                 @yield('content')
             </div>
+            @include('layouts.theme.footer')
            <!-- <div class="layout-px-spacing">
 
                 <div class="row layout-top-spacing">
