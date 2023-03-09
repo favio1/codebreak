@@ -7,6 +7,8 @@
                 </span>
             </div>
             <input type="text" wire:model="search" placeholder="Buscar" class="form-control">
+            <!--Usamos wire:model.lazy para no realizar peticiones al controlador con cada letra ingresada en la caja de busqueda-->
+            <!--<input type="text" wire:model.lazy="search" placeholder="Buscar" class="form-control">-->
         </div>
     </div>
 </div>
