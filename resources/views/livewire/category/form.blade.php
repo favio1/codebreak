@@ -22,7 +22,6 @@
         <label class="custom-file-label">Imagen {{ $image }}</label>
         @error('image') <span class="text-danger er">{{ $message }}</span> @enderror
     </div>
-
 </div>
 </div>
 <!--llamamos a nuestro modalfooter que se encuentra en el directorio common-->
