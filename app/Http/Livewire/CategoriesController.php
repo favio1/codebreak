@@ -70,8 +70,6 @@ class CategoriesController extends Component
             'name' => $this->name
         ]);
 
-        $customFileName;
-
         if($this->image)
         {
             $customFileName = uniqid() . '_.' . $this->image->extension();
